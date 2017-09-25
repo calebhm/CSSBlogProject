@@ -1,0 +1,41 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#blog {
+    width: 80%;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 6%;
+    border: 16px solid #bdc3c7;
+}
+
+.date {
+    color: #3498db;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+}
+
+.post {
+    margin-bottom: 20px;
+}
+
+.post:last-of-type {
+    margin-bottom: 0;
+}
+
+h1 {
+    color: #2c3e50;
+    text-transform: capitalize;
+}
+
+h1 + p {
+    padding-left: 5px;
+    border-left: 5px solid #bdc3c7;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0));
+}
